@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.aboutMe {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.picture {
+    width: 400px;
+    height: 380px;
+    background-image: url(R.jpg);
+    background-size: cover;
+}
+
+.content {
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+    background-color: aqua;
+}
+
+.content h1{
+    padding: 10px;
+    margin: 10px;
+}
+
+.content p{
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 15px;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 5px;
+
+}
+
+.second {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 5px;
+
+}
+
+.one, .two, .three, .four, .five, .six {
+    width: 280px;
+    height: 250px;
+    background-color: red;
+    color: white;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: -20px;
+    background-color: black;
+    height: 350px;
+
+}
+
+.img {
+    background-image: url(R.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto ;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    width: 450px;
+}
+
+@media screen and (max-width:800px){
+    .aboutMe {
+        background-color: blueviolet;
+    }
+
+    .picture {
+        width: 459px;
+        height: 380px;
+        background-image: url(R.jpg);
+        background-size: cover;
+    }
+    
+    .content {
+        margin-top: 50px;
+        width: 230px;
+        height: 270px;
+        background-color: aqua;
+    }
+    .aboutMe {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .one, .two, .three, .four, .five, .six {
+        width: 200px;
+        height: 150px;
+        background-color: red;
+        color: white;
+    }
+
+    .contact {
+        padding: 10px;
+        margin: 10px;
+        color: white;
+        width: 360px;
+    }
+
+    body{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    .aboutMe {
+        background-color: rgb(226, 43, 58);
+    }
+
+    .picture {
+        width: 340px;
+        height: 340px;
+        background-image: url(R.jpg);
+        background-size: cover;
+    }
+    
+    .content {
+        margin-top: 50px;
+        width: 220px;
+        height: 280px;
+        background-color: aqua;
+    }
+    .aboutMe {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .one, .two, .three, .four, .five, .six {
+        width: 170px;
+        height: 120px;
+        background-color: red;
+        color: white;
+    }
+
+    .contact {
+        padding: 10px;
+        margin: 10px;
+        color: white;
+        width: 260px;
+    }
+
+    body{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .aboutMe {
+        background-color: rgb(226, 220, 43);
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        row-gap: 20px;
+    }
+
+    .picture {
+        width: 190px;
+        height: 190px;
+        background-image: url(R.jpg);
+        background-size: cover;
+    }
+    
+    .content {
+        margin-top: 50px;
+        width: 220px;
+        height: 290px;
+        background-color: aqua;
+    }
+
+    .one, .two, .three, .four, .five, .six {
+        width: 100px;
+        height: 50px;
+        background-color: red;
+        color: white;
+    }
+
+    .contact {
+        padding: 10px;
+        margin: 10px;
+        color: white;
+        width: 160px;
+    }
+
+    .img {
+        background-image: url(R.jpg);
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto ;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    body{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 820px) and (max-height: 1180px) {
+    .aboutMe {
+        background-color: rgb(226, 220, 43);
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        row-gap: 20px;
+    }
+
+    .picture {
+        width: 410px;
+        height: 350px;
+        background-image: url(R.jpg);
+        background-size: cover;
+    }
+    
+    .content {
+        margin-top: 50px;
+        width: 220px;
+        height: 290px;
+        background-color: aqua;
+    }
+
+    .one, .two, .three, .four, .five, .six {
+        width: 190px;
+        height: 150px;
+        background-color: red;
+        color: white;
+    }
+
+    .contact {
+        padding: 10px;
+        margin: 10px;
+        color: white;
+        width: 160px;
+    }
+
+    .img {
+        background-image: url(R.jpg);
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto ;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    body{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+}
